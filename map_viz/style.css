@@ -1,0 +1,73 @@
+#mapid { 
+  height: 100%; 
+  width: 76%;
+  font-family: "Lucida Console", Courier, monospace;
+  float: left;
+}
+
+h4 {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.fullcontainer {
+  height: 80%;
+  width: 100%;
+  float: left;
+}
+
+#scrollText {
+  height: 100%;
+  width: 24%;
+  /*background-color: green;*/
+  float: right;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.w3-blue, .w3-hover-blue {
+  background-color: black !important;
+}
+
+body {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.slidecontainer {
+  width: 76%;
+  z-index: 10000000;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: black;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-top: 5px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+/*Adding the CSS for the tickmarks and the labels*/
+.menuwrapper { display: flex; justify-content: space-between; }
+.menuwrapper2 { display: flex; justify-content: space-between; }
